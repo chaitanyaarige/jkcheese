@@ -11,10 +11,10 @@
   <!-- The slideshow -->
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="images/cheeseTransform.jpg" alt="Los Angeles" width="1100" height="500">
+      <img src="assets/images/cheeseTransform.jpg" alt="Los Angeles" width="1100" height="500">
     </div>
     <div class="carousel-item">
-      <img src="images/cheese_shop.jpg" alt="Chicago" width="1100" height="500">
+      <img src="assets/images/cheese_shop.jpg" alt="Chicago" width="1100" height="500">
     </div>
     <div class="carousel-item">
       <img src="ny.jpg" alt="New York" width="1100" height="500">

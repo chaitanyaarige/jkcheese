@@ -1,0 +1,1240 @@
+{
+    "mockup": {
+        "controls": {
+            "control": [
+                {
+                    "ID": "0",
+                    "typeID": "BrowserWindow",
+                    "zOrder": "0",
+                    "w": "804",
+                    "h": "3756",
+                    "measuredW": "450",
+                    "measuredH": "400",
+                    "x": "27",
+                    "y": "0",
+                    "properties": {
+                        "text": "Cheese n More\nhttps://www.cheese"
+                    }
+                },
+                {
+                    "ID": "1",
+                    "typeID": "MenuBar",
+                    "zOrder": "1",
+                    "w": "552",
+                    "h": "32",
+                    "measuredW": "549",
+                    "measuredH": "32",
+                    "x": "167",
+                    "y": "100",
+                    "properties": {
+                        "text": "Home, Our Cheese, Our Meat , Shop ,       , Shop , About Us,  My Account"
+                    }
+                },
+                {
+                    "ID": "2",
+                    "typeID": "RoundButton",
+                    "zOrder": "2",
+                    "w": "75",
+                    "h": "64",
+                    "measuredW": "32",
+                    "measuredH": "32",
+                    "x": "391",
+                    "y": "84"
+                },
+                {
+                    "ID": "3",
+                    "typeID": "Image",
+                    "zOrder": "3",
+                    "w": "694",
+                    "h": "235",
+                    "measuredW": "77",
+                    "measuredH": "79",
+                    "x": "82",
+                    "y": "173"
+                },
+                {
+                    "ID": "4",
+                    "typeID": "PointyButton",
+                    "zOrder": "4",
+                    "measuredW": "30",
+                    "measuredH": "27",
+                    "x": "43",
+                    "y": "269",
+                    "properties": {
+                        "borderStyle": "none",
+                        "direction": "left",
+                        "text": ""
+                    }
+                },
+                {
+                    "ID": "5",
+                    "typeID": "PointyButton",
+                    "zOrder": "5",
+                    "measuredW": "30",
+                    "measuredH": "27",
+                    "x": "792",
+                    "y": "269",
+                    "properties": {
+                        "borderStyle": "none",
+                        "direction": "right",
+                        "text": ""
+                    }
+                },
+                {
+                    "ID": "6",
+                    "typeID": "Button",
+                    "zOrder": "6",
+                    "measuredW": "63",
+                    "measuredH": "27",
+                    "x": "397",
+                    "y": "277",
+                    "properties": {
+                        "text": "Button"
+                    }
+                },
+                {
+                    "ID": "7",
+                    "typeID": "Arrow",
+                    "zOrder": "7",
+                    "w": "534",
+                    "h": "108",
+                    "measuredW": "150",
+                    "measuredH": "100",
+                    "x": "450",
+                    "y": "166",
+                    "properties": {
+                        "p0": {
+                            "x": 0,
+                            "y": 108
+                        },
+                        "p1": {
+                            "x": 0.5256367570349461,
+                            "y": 0.08205235486909317
+                        },
+                        "p2": {
+                            "x": 534,
+                            "y": 10
+                        },
+                        "shape": "bezier",
+                        "curvature": "0",
+                        "direction": "top",
+                        "backgroundAlpha": "0.25"
+                    }
+                },
+                {
+                    "ID": "9",
+                    "typeID": "Label",
+                    "zOrder": "8",
+                    "measuredW": "236",
+                    "measuredH": "23",
+                    "x": "901",
+                    "y": "180",
+                    "properties": {
+                        "text": "* Redirect button - to banner page",
+                        "size": "15",
+                        "state": "disabled"
+                    }
+                },
+                {
+                    "ID": "10",
+                    "typeID": "SubTitle",
+                    "zOrder": "9",
+                    "measuredW": "274",
+                    "measuredH": "28",
+                    "x": "318",
+                    "y": "495",
+                    "properties": {
+                        "text": "Our Customers Favorites"
+                    }
+                },
+                {
+                    "ID": "11",
+                    "typeID": "Image",
+                    "zOrder": "10",
+                    "w": "185",
+                    "h": "168",
+                    "measuredW": "77",
+                    "measuredH": "79",
+                    "x": "117",
+                    "y": "557"
+                },
+                {
+                    "ID": "12",
+                    "typeID": "Image",
+                    "zOrder": "11",
+                    "w": "164",
+                    "h": "168",
+                    "measuredW": "77",
+                    "measuredH": "79",
+                    "x": "371",
+                    "y": "557"
+                },
+                {
+                    "ID": "13",
+                    "typeID": "Image",
+                    "zOrder": "12",
+                    "w": "180",
+                    "h": "168",
+                    "measuredW": "77",
+                    "measuredH": "79",
+                    "x": "596",
+                    "y": "557"
+                },
+                {
+                    "ID": "14",
+                    "typeID": "PointyButton",
+                    "zOrder": "13",
+                    "measuredW": "30",
+                    "measuredH": "27",
+                    "x": "39",
+                    "y": "636",
+                    "properties": {
+                        "borderStyle": "none",
+                        "direction": "left",
+                        "text": ""
+                    }
+                },
+                {
+                    "ID": "15",
+                    "typeID": "PointyButton",
+                    "zOrder": "14",
+                    "measuredW": "30",
+                    "measuredH": "27",
+                    "x": "788",
+                    "y": "636",
+                    "properties": {
+                        "borderStyle": "none",
+                        "direction": "right",
+                        "text": ""
+                    }
+                },
+                {
+                    "ID": "17",
+                    "typeID": "Label",
+                    "zOrder": "15",
+                    "measuredW": "46",
+                    "measuredH": "21",
+                    "x": "187",
+                    "y": "736",
+                    "properties": {
+                        "text": "Cheese"
+                    }
+                },
+                {
+                    "ID": "18",
+                    "typeID": "Label",
+                    "zOrder": "16",
+                    "measuredW": "30",
+                    "measuredH": "21",
+                    "x": "429",
+                    "y": "752",
+                    "properties": {
+                        "text": "Meat"
+                    }
+                },
+                {
+                    "ID": "19",
+                    "typeID": "Label",
+                    "zOrder": "17",
+                    "measuredW": "59",
+                    "measuredH": "21",
+                    "x": "666",
+                    "y": "752",
+                    "properties": {
+                        "text": "Dry Fruits"
+                    }
+                },
+                {
+                    "ID": "20",
+                    "typeID": "Label",
+                    "zOrder": "18",
+                    "measuredW": "148",
+                    "measuredH": "23",
+                    "x": "871",
+                    "y": "292",
+                    "properties": {
+                        "text": "* 4 Banners Carousel",
+                        "size": "15",
+                        "state": "disabled"
+                    }
+                },
+                {
+                    "ID": "21",
+                    "typeID": "Arrow",
+                    "zOrder": "19",
+                    "w": "427",
+                    "h": "63",
+                    "measuredW": "150",
+                    "measuredH": "100",
+                    "x": "470",
+                    "y": "272",
+                    "properties": {
+                        "p0": {
+                            "x": 0,
+                            "y": 63
+                        },
+                        "p1": {
+                            "x": 0.5256367570349462,
+                            "y": 0.08205235486909314
+                        },
+                        "p2": {
+                            "x": 427,
+                            "y": 17
+                        },
+                        "shape": "bezier",
+                        "curvature": "0",
+                        "direction": "top",
+                        "backgroundAlpha": "0.25"
+                    }
+                },
+                {
+                    "ID": "22",
+                    "typeID": "SubTitle",
+                    "zOrder": "20",
+                    "measuredW": "149",
+                    "measuredH": "28",
+                    "x": "356",
+                    "y": "219",
+                    "properties": {
+                        "text": "Banner Name"
+                    }
+                },
+                {
+                    "ID": "24",
+                    "typeID": "Image",
+                    "zOrder": "21",
+                    "w": "691",
+                    "h": "284",
+                    "measuredW": "77",
+                    "measuredH": "79",
+                    "x": "81",
+                    "y": "835"
+                },
+                {
+                    "ID": "25",
+                    "typeID": "SubTitle",
+                    "zOrder": "22",
+                    "measuredW": "104",
+                    "measuredH": "28",
+                    "x": "375",
+                    "y": "923",
+                    "properties": {
+                        "text": "Our Shop"
+                    }
+                },
+                {
+                    "ID": "29",
+                    "typeID": "Image",
+                    "zOrder": "23",
+                    "w": "80",
+                    "h": "66",
+                    "measuredW": "325",
+                    "measuredH": "296",
+                    "x": "387",
+                    "y": "83",
+                    "properties": {
+                        "src": {
+                            "ID": "F5154E12-AF6F-429B-AEB8-43D96C1336D9"
+                        }
+                    }
+                },
+                {
+                    "ID": "30",
+                    "typeID": "Image",
+                    "zOrder": "24",
+                    "w": "132",
+                    "h": "121",
+                    "measuredW": "77",
+                    "measuredH": "79",
+                    "x": "91",
+                    "y": "1291"
+                },
+                {
+                    "ID": "31",
+                    "typeID": "Image",
+                    "zOrder": "25",
+                    "w": "117",
+                    "h": "121",
+                    "measuredW": "77",
+                    "measuredH": "79",
+                    "x": "264",
+                    "y": "1291"
+                },
+                {
+                    "ID": "32",
+                    "typeID": "Image",
+                    "zOrder": "26",
+                    "w": "128",
+                    "h": "121",
+                    "measuredW": "77",
+                    "measuredH": "79",
+                    "x": "425",
+                    "y": "1291"
+                },
+                {
+                    "ID": "33",
+                    "typeID": "Image",
+                    "zOrder": "27",
+                    "w": "128",
+                    "h": "121",
+                    "measuredW": "77",
+                    "measuredH": "79",
+                    "x": "598",
+                    "y": "1291"
+                },
+                {
+                    "ID": "34",
+                    "typeID": "Image",
+                    "zOrder": "28",
+                    "w": "132",
+                    "h": "121",
+                    "measuredW": "77",
+                    "measuredH": "79",
+                    "x": "91",
+                    "y": "1480"
+                },
+                {
+                    "ID": "35",
+                    "typeID": "Image",
+                    "zOrder": "29",
+                    "w": "117",
+                    "h": "121",
+                    "measuredW": "77",
+                    "measuredH": "79",
+                    "x": "264",
+                    "y": "1480"
+                },
+                {
+                    "ID": "36",
+                    "typeID": "Image",
+                    "zOrder": "30",
+                    "w": "128",
+                    "h": "121",
+                    "measuredW": "77",
+                    "measuredH": "79",
+                    "x": "425",
+                    "y": "1480"
+                },
+                {
+                    "ID": "37",
+                    "typeID": "Image",
+                    "zOrder": "31",
+                    "w": "128",
+                    "h": "121",
+                    "measuredW": "77",
+                    "measuredH": "79",
+                    "x": "598",
+                    "y": "1480"
+                },
+                {
+                    "ID": "38",
+                    "typeID": "Image",
+                    "zOrder": "32",
+                    "w": "132",
+                    "h": "121",
+                    "measuredW": "77",
+                    "measuredH": "79",
+                    "x": "92",
+                    "y": "1680"
+                },
+                {
+                    "ID": "39",
+                    "typeID": "Image",
+                    "zOrder": "33",
+                    "w": "117",
+                    "h": "121",
+                    "measuredW": "77",
+                    "measuredH": "79",
+                    "x": "265",
+                    "y": "1680"
+                },
+                {
+                    "ID": "40",
+                    "typeID": "Image",
+                    "zOrder": "34",
+                    "w": "128",
+                    "h": "121",
+                    "measuredW": "77",
+                    "measuredH": "79",
+                    "x": "426",
+                    "y": "1680"
+                },
+                {
+                    "ID": "41",
+                    "typeID": "SubTitle",
+                    "zOrder": "35",
+                    "measuredW": "145",
+                    "measuredH": "28",
+                    "x": "322",
+                    "y": "1227",
+                    "properties": {
+                        "text": "What We Sell"
+                    }
+                },
+                {
+                    "ID": "42",
+                    "typeID": "Label",
+                    "zOrder": "36",
+                    "measuredW": "46",
+                    "measuredH": "21",
+                    "x": "119",
+                    "y": "1425",
+                    "properties": {
+                        "text": "Cheese"
+                    }
+                },
+                {
+                    "ID": "43",
+                    "typeID": "Label",
+                    "zOrder": "37",
+                    "measuredW": "37",
+                    "measuredH": "21",
+                    "x": "292",
+                    "y": "1425",
+                    "properties": {
+                        "text": "Butter"
+                    }
+                },
+                {
+                    "ID": "44",
+                    "typeID": "Label",
+                    "zOrder": "38",
+                    "measuredW": "98",
+                    "measuredH": "21",
+                    "x": "459",
+                    "y": "1425",
+                    "properties": {
+                        "text": "Whipping Cream"
+                    }
+                },
+                {
+                    "ID": "45",
+                    "typeID": "Label",
+                    "zOrder": "39",
+                    "measuredW": "66",
+                    "measuredH": "21",
+                    "x": "631",
+                    "y": "1425",
+                    "properties": {
+                        "text": "Chocolates"
+                    }
+                },
+                {
+                    "ID": "46",
+                    "typeID": "Label",
+                    "zOrder": "40",
+                    "measuredW": "78",
+                    "measuredH": "21",
+                    "x": "114",
+                    "y": "1608",
+                    "properties": {
+                        "text": "Frozen Fruits"
+                    }
+                },
+                {
+                    "ID": "47",
+                    "typeID": "Label",
+                    "zOrder": "41",
+                    "measuredW": "80",
+                    "measuredH": "21",
+                    "x": "299",
+                    "y": "1608",
+                    "properties": {
+                        "text": "Frozen Meats"
+                    }
+                },
+                {
+                    "ID": "48",
+                    "typeID": "Label",
+                    "zOrder": "42",
+                    "measuredW": "60",
+                    "measuredH": "21",
+                    "x": "466",
+                    "y": "1608",
+                    "properties": {
+                        "text": "Sausages"
+                    }
+                },
+                {
+                    "ID": "49",
+                    "typeID": "Label",
+                    "zOrder": "43",
+                    "measuredW": "102",
+                    "measuredH": "21",
+                    "x": "613",
+                    "y": "1608",
+                    "properties": {
+                        "text": "Chilled Cold Cuts"
+                    }
+                },
+                {
+                    "ID": "50",
+                    "typeID": "Label",
+                    "zOrder": "44",
+                    "measuredW": "35",
+                    "measuredH": "21",
+                    "x": "122",
+                    "y": "1817",
+                    "properties": {
+                        "text": "Syrup"
+                    }
+                },
+                {
+                    "ID": "51",
+                    "typeID": "Label",
+                    "zOrder": "45",
+                    "measuredW": "34",
+                    "measuredH": "21",
+                    "x": "295",
+                    "y": "1817",
+                    "properties": {
+                        "text": "Pasta"
+                    }
+                },
+                {
+                    "ID": "52",
+                    "typeID": "Label",
+                    "zOrder": "46",
+                    "measuredW": "98",
+                    "measuredH": "21",
+                    "x": "441",
+                    "y": "1817",
+                    "properties": {
+                        "text": "Olives& Olive Oil"
+                    }
+                },
+                {
+                    "ID": "53",
+                    "typeID": "Label",
+                    "zOrder": "47",
+                    "measuredW": "47",
+                    "measuredH": "21",
+                    "x": "134",
+                    "y": "1629",
+                    "properties": {
+                        "text": " &Puree"
+                    }
+                },
+                {
+                    "ID": "54",
+                    "typeID": "Label",
+                    "zOrder": "48",
+                    "measuredW": "77",
+                    "measuredH": "21",
+                    "x": "300",
+                    "y": "1629",
+                    "properties": {
+                        "text": " & Sea foods"
+                    }
+                },
+                {
+                    "ID": "55",
+                    "typeID": "Image",
+                    "zOrder": "49",
+                    "w": "128",
+                    "h": "121",
+                    "measuredW": "77",
+                    "measuredH": "79",
+                    "x": "600",
+                    "y": "1673"
+                },
+                {
+                    "ID": "56",
+                    "typeID": "Label",
+                    "zOrder": "50",
+                    "measuredW": "102",
+                    "measuredH": "21",
+                    "x": "617",
+                    "y": "1817",
+                    "properties": {
+                        "text": "Dry Fruits & Nuts"
+                    }
+                },
+                {
+                    "ID": "57",
+                    "typeID": "Image",
+                    "zOrder": "51",
+                    "w": "132",
+                    "h": "121",
+                    "measuredW": "77",
+                    "measuredH": "79",
+                    "x": "92",
+                    "y": "1871"
+                },
+                {
+                    "ID": "58",
+                    "typeID": "Image",
+                    "zOrder": "52",
+                    "w": "117",
+                    "h": "121",
+                    "measuredW": "77",
+                    "measuredH": "79",
+                    "x": "265",
+                    "y": "1871"
+                },
+                {
+                    "ID": "59",
+                    "typeID": "Label",
+                    "zOrder": "53",
+                    "measuredW": "74",
+                    "measuredH": "21",
+                    "x": "121",
+                    "y": "2000",
+                    "properties": {
+                        "text": "Fresh Fruits "
+                    }
+                },
+                {
+                    "ID": "60",
+                    "typeID": "Label",
+                    "zOrder": "54",
+                    "measuredW": "113",
+                    "measuredH": "21",
+                    "x": "282",
+                    "y": "2000",
+                    "properties": {
+                        "text": "English Vegetables"
+                    }
+                },
+                {
+                    "ID": "61",
+                    "typeID": "Label",
+                    "zOrder": "55",
+                    "measuredW": "68",
+                    "measuredH": "21",
+                    "x": "157",
+                    "y": "2021",
+                    "properties": {
+                        "text": "and Berries"
+                    }
+                },
+                {
+                    "ID": "62",
+                    "typeID": "Canvas",
+                    "zOrder": "56",
+                    "w": "757",
+                    "h": "333",
+                    "measuredW": "100",
+                    "measuredH": "70",
+                    "x": "48",
+                    "y": "2816"
+                },
+                {
+                    "ID": "63",
+                    "typeID": "Image",
+                    "zOrder": "57",
+                    "w": "245",
+                    "h": "292",
+                    "measuredW": "77",
+                    "measuredH": "79",
+                    "x": "63",
+                    "y": "2830"
+                },
+                {
+                    "ID": "64",
+                    "typeID": "SubTitle",
+                    "zOrder": "58",
+                    "measuredW": "102",
+                    "measuredH": "28",
+                    "x": "354",
+                    "y": "2844",
+                    "properties": {
+                        "text": "About Us"
+                    }
+                },
+                {
+                    "ID": "65",
+                    "typeID": "Link",
+                    "zOrder": "59",
+                    "measuredW": "52",
+                    "measuredH": "21",
+                    "x": "703",
+                    "y": "3097",
+                    "properties": {
+                        "text": "more >>"
+                    }
+                },
+                {
+                    "ID": "66",
+                    "typeID": "Label",
+                    "zOrder": "60",
+                    "w": "126",
+                    "measuredW": "170",
+                    "measuredH": "23",
+                    "x": "937",
+                    "y": "3033",
+                    "properties": {
+                        "size": "15",
+                        "state": "disabled",
+                        "text": "* Redirect to About page"
+                    }
+                },
+                {
+                    "ID": "67",
+                    "typeID": "Arrow",
+                    "zOrder": "61",
+                    "w": "231",
+                    "h": "45",
+                    "measuredW": "150",
+                    "measuredH": "100",
+                    "x": "760",
+                    "y": "3022",
+                    "properties": {
+                        "p0": {
+                            "x": 0,
+                            "y": 45
+                        },
+                        "p1": {
+                            "x": 0.5236601690990202,
+                            "y": 0.0723924446630406
+                        },
+                        "p2": {
+                            "x": 231,
+                            "y": 3
+                        },
+                        "shape": "bezier",
+                        "curvature": "0",
+                        "direction": "top",
+                        "backgroundAlpha": "0.25"
+                    }
+                },
+                {
+                    "ID": "68",
+                    "typeID": "Paragraph",
+                    "zOrder": "62",
+                    "measuredW": "275",
+                    "measuredH": "80",
+                    "x": "345",
+                    "y": "2888"
+                },
+                {
+                    "ID": "69",
+                    "typeID": "Paragraph",
+                    "zOrder": "63",
+                    "measuredW": "275",
+                    "measuredH": "80",
+                    "x": "345",
+                    "y": "2953"
+                },
+                {
+                    "ID": "70",
+                    "typeID": "SubTitle",
+                    "zOrder": "65",
+                    "measuredW": "145",
+                    "measuredH": "28",
+                    "x": "328",
+                    "y": "2107",
+                    "properties": {
+                        "text": "How It Works"
+                    }
+                },
+                {
+                    "ID": "71",
+                    "typeID": "RoundButton",
+                    "zOrder": "66",
+                    "w": "132",
+                    "h": "127",
+                    "measuredW": "32",
+                    "measuredH": "32",
+                    "x": "91",
+                    "y": "2170"
+                },
+                {
+                    "ID": "72",
+                    "typeID": "RoundButton",
+                    "zOrder": "67",
+                    "w": "132",
+                    "h": "127",
+                    "measuredW": "32",
+                    "measuredH": "32",
+                    "x": "327",
+                    "y": "2170"
+                },
+                {
+                    "ID": "73",
+                    "typeID": "RoundButton",
+                    "zOrder": "68",
+                    "w": "132",
+                    "h": "127",
+                    "measuredW": "32",
+                    "measuredH": "32",
+                    "x": "568",
+                    "y": "2170"
+                },
+                {
+                    "ID": "75",
+                    "typeID": "Label",
+                    "zOrder": "69",
+                    "measuredW": "139",
+                    "measuredH": "23",
+                    "x": "89",
+                    "y": "2312",
+                    "properties": {
+                        "text": "Chat With An Expert",
+                        "size": "15"
+                    }
+                },
+                {
+                    "ID": "76",
+                    "typeID": "Label",
+                    "zOrder": "70",
+                    "measuredW": "90",
+                    "measuredH": "23",
+                    "x": "336",
+                    "y": "2312",
+                    "properties": {
+                        "text": "Free Delivery",
+                        "size": "15"
+                    }
+                },
+                {
+                    "ID": "77",
+                    "typeID": "Label",
+                    "zOrder": "71",
+                    "measuredW": "103",
+                    "measuredH": "23",
+                    "x": "598",
+                    "y": "2312",
+                    "properties": {
+                        "text": "Fresh Products",
+                        "size": "15"
+                    }
+                },
+                {
+                    "ID": "78",
+                    "typeID": "Canvas",
+                    "zOrder": "64",
+                    "w": "757",
+                    "h": "333",
+                    "measuredW": "100",
+                    "measuredH": "70",
+                    "x": "43",
+                    "y": "2058"
+                },
+                {
+                    "ID": "79",
+                    "typeID": "Link",
+                    "zOrder": "72",
+                    "measuredW": "52",
+                    "measuredH": "21",
+                    "x": "658",
+                    "y": "1983",
+                    "properties": {
+                        "text": "more >>"
+                    }
+                },
+                {
+                    "ID": "80",
+                    "typeID": "Canvas",
+                    "zOrder": "73",
+                    "w": "757",
+                    "h": "346",
+                    "measuredW": "100",
+                    "measuredH": "70",
+                    "x": "48",
+                    "y": "2415"
+                },
+                {
+                    "ID": "81",
+                    "typeID": "SubTitle",
+                    "zOrder": "74",
+                    "measuredW": "112",
+                    "measuredH": "28",
+                    "x": "328",
+                    "y": "2431",
+                    "properties": {
+                        "text": "Client List"
+                    }
+                },
+                {
+                    "ID": "82",
+                    "typeID": "RoundButton",
+                    "zOrder": "75",
+                    "w": "132",
+                    "h": "127",
+                    "measuredW": "32",
+                    "measuredH": "32",
+                    "x": "114",
+                    "y": "2519"
+                },
+                {
+                    "ID": "83",
+                    "typeID": "RoundButton",
+                    "zOrder": "76",
+                    "w": "132",
+                    "h": "127",
+                    "measuredW": "32",
+                    "measuredH": "32",
+                    "x": "350",
+                    "y": "2519"
+                },
+                {
+                    "ID": "84",
+                    "typeID": "RoundButton",
+                    "zOrder": "77",
+                    "w": "132",
+                    "h": "127",
+                    "measuredW": "32",
+                    "measuredH": "32",
+                    "x": "591",
+                    "y": "2519"
+                },
+                {
+                    "ID": "85",
+                    "typeID": "PointyButton",
+                    "zOrder": "78",
+                    "measuredW": "30",
+                    "measuredH": "27",
+                    "x": "63",
+                    "y": "2569",
+                    "properties": {
+                        "borderStyle": "none",
+                        "direction": "left",
+                        "text": ""
+                    }
+                },
+                {
+                    "ID": "86",
+                    "typeID": "PointyButton",
+                    "zOrder": "79",
+                    "measuredW": "30",
+                    "measuredH": "27",
+                    "x": "760",
+                    "y": "2562",
+                    "properties": {
+                        "borderStyle": "none",
+                        "direction": "right",
+                        "text": ""
+                    }
+                },
+                {
+                    "ID": "87",
+                    "typeID": "Label",
+                    "zOrder": "80",
+                    "measuredW": "72",
+                    "measuredH": "23",
+                    "x": "134",
+                    "y": "2662",
+                    "properties": {
+                        "text": "ITC Group",
+                        "size": "15"
+                    }
+                },
+                {
+                    "ID": "88",
+                    "typeID": "Label",
+                    "zOrder": "81",
+                    "measuredW": "68",
+                    "measuredH": "23",
+                    "x": "381",
+                    "y": "2662",
+                    "properties": {
+                        "text": "The Leela",
+                        "size": "15"
+                    }
+                },
+                {
+                    "ID": "89",
+                    "typeID": "Label",
+                    "zOrder": "82",
+                    "measuredW": "35",
+                    "measuredH": "23",
+                    "x": "623",
+                    "y": "2662",
+                    "properties": {
+                        "text": "Hyatt",
+                        "size": "15"
+                    }
+                },
+                {
+                    "ID": "90",
+                    "typeID": "Canvas",
+                    "zOrder": "83",
+                    "w": "748",
+                    "h": "406",
+                    "measuredW": "100",
+                    "measuredH": "70",
+                    "x": "52",
+                    "y": "3197"
+                },
+                {
+                    "ID": "91",
+                    "typeID": "SubTitle",
+                    "zOrder": "84",
+                    "measuredW": "125",
+                    "measuredH": "28",
+                    "x": "330",
+                    "y": "3213",
+                    "properties": {
+                        "text": "Contact Us"
+                    }
+                },
+                {
+                    "ID": "92",
+                    "typeID": "TextInput",
+                    "zOrder": "85",
+                    "w": "206",
+                    "measuredW": "137",
+                    "measuredH": "27",
+                    "x": "276",
+                    "y": "3702",
+                    "properties": {
+                        "text": "JK Enterprises 2019"
+                    }
+                },
+                {
+                    "ID": "93",
+                    "typeID": "Label",
+                    "zOrder": "86",
+                    "measuredW": "40",
+                    "measuredH": "23",
+                    "x": "98",
+                    "y": "3289",
+                    "properties": {
+                        "text": "Name",
+                        "size": "15"
+                    }
+                },
+                {
+                    "ID": "94",
+                    "typeID": "TextInput",
+                    "zOrder": "87",
+                    "w": "223",
+                    "measuredW": "79",
+                    "measuredH": "27",
+                    "x": "95",
+                    "y": "3328"
+                },
+                {
+                    "ID": "95",
+                    "typeID": "Label",
+                    "zOrder": "88",
+                    "measuredW": "37",
+                    "measuredH": "23",
+                    "x": "98",
+                    "y": "3330",
+                    "properties": {
+                        "size": "15",
+                        "text": "Email"
+                    }
+                },
+                {
+                    "ID": "96",
+                    "typeID": "TextInput",
+                    "zOrder": "89",
+                    "w": "223",
+                    "measuredW": "79",
+                    "measuredH": "27",
+                    "x": "95",
+                    "y": "3369"
+                },
+                {
+                    "ID": "97",
+                    "typeID": "Label",
+                    "zOrder": "90",
+                    "measuredW": "53",
+                    "measuredH": "23",
+                    "x": "98",
+                    "y": "3371",
+                    "properties": {
+                        "size": "15",
+                        "text": "Subject"
+                    }
+                },
+                {
+                    "ID": "99",
+                    "typeID": "TextArea",
+                    "zOrder": "91",
+                    "w": "225",
+                    "h": "58",
+                    "measuredW": "200",
+                    "measuredH": "140",
+                    "x": "93",
+                    "y": "3419",
+                    "properties": {
+                        "text": "Message"
+                    }
+                },
+                {
+                    "ID": "100",
+                    "typeID": "TextArea",
+                    "zOrder": "92",
+                    "w": "225",
+                    "h": "240",
+                    "measuredW": "200",
+                    "measuredH": "140",
+                    "x": "473",
+                    "y": "3287",
+                    "properties": {
+                        "text": "*JK Enterprises*\n\n*Chennai*\n?New No.38,Old No.11,\nPonnangipuram 1st Street,Nungambakkam Chennai 600 034\nContac -  044- 4202 5934 / +91 9841131008 / 90434 49203\n\n*Bangalore*\n67,7t Cross,Vasanth Nagar, Bangalore 560 001"
+                    }
+                },
+                {
+                    "ID": "101",
+                    "typeID": "Icon",
+                    "zOrder": "93",
+                    "measuredW": "48",
+                    "measuredH": "48",
+                    "x": "234",
+                    "y": "3538",
+                    "properties": {
+                        "icon": {
+                            "ID": "facebook-square",
+                            "size": "large"
+                        }
+                    }
+                },
+                {
+                    "ID": "102",
+                    "typeID": "Icon",
+                    "zOrder": "94",
+                    "measuredW": "48",
+                    "measuredH": "48",
+                    "x": "317",
+                    "y": "3537",
+                    "properties": {
+                        "icon": {
+                            "ID": "pinterest",
+                            "size": "large"
+                        }
+                    }
+                },
+                {
+                    "ID": "103",
+                    "typeID": "Icon",
+                    "zOrder": "95",
+                    "measuredW": "48",
+                    "measuredH": "48",
+                    "x": "402",
+                    "y": "3537",
+                    "properties": {
+                        "icon": {
+                            "ID": "instagram",
+                            "size": "large"
+                        }
+                    }
+                },
+                {
+                    "ID": "104",
+                    "typeID": "Icon",
+                    "zOrder": "96",
+                    "measuredW": "24",
+                    "measuredH": "24",
+                    "x": "419",
+                    "y": "3702",
+                    "properties": {
+                        "icon": {
+                            "ID": "copyright",
+                            "size": "small"
+                        }
+                    }
+                }
+            ]
+        },
+        "mockupH": "3756",
+        "mockupW": "1110",
+        "measuredW": "1137",
+        "measuredH": "3756",
+        "version": "1.0"
+    }
+}

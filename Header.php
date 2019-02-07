@@ -7,28 +7,24 @@
     <title>Cheese n More</title>
 
     <!-- Jquery -->
-    <script src="front/js/jquery-3.1.1.min.js"></script>
+    <script src="assets/js/jquery-3.1.1.min.js"></script>
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="front/css/cheeseHomepage.css">
-    <link rel="stylesheet" href="front/css/Headercss.css">
+    <link rel="stylesheet" href="assets/css/homepage.css">
+    <link rel="stylesheet" href="assets/css/Headercss.css">
+    <link rel="stylesheet" href="assets/css/carousel.css">
 
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="front/css/bootstrap-4/bootstrap.min.css">
-    <script src="front/js/bootstrap/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="assets/css/bootstrap-4/bootstrap.min.css">
+    <script src="assets/js/bootstrap/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 
     <!-- Semantic ui -->
-    <link rel="stylesheet" href="front/css/Semantic-UI-2.4/semantic.min.css">
-    <script src="front/css/Semantic-UI-2.4/semantic.min.js"></script>
+    <link rel="stylesheet" href="assets/css/Semantic-UI-2.4/semantic.min.css">
+    <script src="assets/css/Semantic-UI-2.4/semantic.min.js"></script>
 
-    <!-- Semantic Ui dropdowns -->
-    <script>
-        $('.ui.dropdown').dropdown();
-        $('#select').dropdown();
-    </script>
     <!-- Font awesome icons -->
-    <link rel="stylesheet" href="front/css/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=EB+Garamond|Raleway" rel="stylesheet">
 </head>
@@ -37,17 +33,16 @@
 <div>
 <!-- header nav bar -->
 	<div class="topnav" id="myTopnav">
-    <div class="ui center aligned grid">
-        <div class="ui primary secondary menu">
+    <div class="ui center aligned grid container">
+        <div class="ui secondary menu">
             <a href="Home.php" class="item"  id="gold_color"> HOME</a>
             <a href="productpage.php" class="item"  id="gold_color">OUR CHEESE</a>
             <a href="productpage.php" class="item"  id="gold_color">OUR MEAT</a>
-            <img class="logonav" src="images/logo.jpg" alt="logo">
+            <img class="logonav" src="assets/images/logo.jpg" alt="logo">
             <div class="ui simple dropdown item"  id="gold_color">
                 SHOP <br> by category
                 <i class="dropdown icon"></i>
                 <div class="menu">
-                <!-- <div class="header">Categories</div> -->
                     <a href="productpage.php" class="item">Butter</a>
                     <a href="productpage.php" class="item">Dry Fruits</a>
                     <a href="productpage.php" class="item">Chocolates</a>
@@ -67,19 +62,24 @@
 
 
 <script>
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 120) {
+            $(".topnav").addClass("sticky");
+        } else {
+            $('.topnav').removeClass("sticky");
+        }
+    });
 
-$(window).scroll(function() {
-    if ($(this).scrollTop() > 200){  
-        $(".topnav").addClass("sticky");
-    }
-    else{
-        $('.topnav').removeClass("sticky");
-    }
-});
+    $(window).on("scroll", function () {
+        var s = 82 - Math.min(50, $(document).scrollTop());
+        $(".logonav").width(s).height(s);
+    });
 
-$(window).on("scroll", function() {
-    var s = 82 - Math.min(50, $(document).scrollTop());
-    $(".logonav").width(s).height(s);
-});
+    // Semantic Ui dropdowns 
+
+    $('.ui.dropdown').dropdown();
+    $('#select').dropdown();
+    $('#hybrid select').dropdown({
+        on: 'hover'
+    });
 </script>
-

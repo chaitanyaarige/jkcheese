@@ -51,27 +51,27 @@
 }
 
 .slide1 {
-    background: url(images/cheeseTransform.jpg)no-repeat center;
+    background: url(assets/images/cheeseTransform.jpg)no-repeat center;
       background-size: cover;
     animation:fade3 8s infinite;
 -webkit-animation:fade3 8s infinite;
 }
 .slide2 {
-    background: url(images/cheese_shop.jpg)no-repeat center;
+    background: url(assets/images/cheese_shop.jpg)no-repeat center;
       background-size: cover;
     animation:fade3 8s infinite;
 -webkit-animation:fade3 8s infinite;
 }
 
 .slide3 {
-  background: url(images/meat_cut.jpg)no-repeat center;
+  background: url(assets/images/meat_cut.jpg)no-repeat center;
       background-size: cover;
     animation:fade2 8s infinite;
 -webkit-animation:fade2 8s infinite;
 }
 
 .slide4 {
-  background: url(images/beef_closeup.jpg)no-repeat center;
+  background: url(assets/images/beef_closeup.jpg)no-repeat center;
       background-size: cover;
     animation:fade 8s infinite;
 -webkit-animation:fade 8s infinite;

@@ -1,422 +1,415 @@
-    <div>
-        <!-- Top Navigation Bar -->
-        <div>
-            <?php include 'Header.php';?>
+<!-- Top Navigation Bar -->
+<div>
+    <?php include 'Header.php';?>
+</div>
+<!-- image slideshow -->
+<div>
+    <?php include 'slideshow.php';?>
+</div>
+
+<!-- body starts -->
+<div class="fourteen wide column" id="column_1">
+    <br>
+    <br>
+
+    <!-- What we sell First part-->
+    <h1 class="ui centered header" id="header-size40">What We Sell</h1> <br> <br>
+    <div class="bootstrap_three">
+        <div class="col-xs-3 col-sm-3 col-md-3">
+            <a href="#new">
+                <img class="polaroid" src="assets/images/cheese-varieties.jpg" alt="About us" style="width:300px;height:200px">
+                <h4 class="ui centered header">Dry Fruits</h4>
+            </a> <br>
+            <p class="centered_para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            </p>
         </div>
-        <!-- image slideshow -->
-        <div>
-            <?php include 'slideshow.php';?>
+
+
+        <div class="col-xs-3 col-sm-3 col-md-3">
+            <a href="#new">
+                <img class="polaroid" src="assets/images/coulommiers_lait.jpg" alt="About us" style="width:300px;height:200px">
+                <h4 class="ui centered header">Dry Fruits</h4>
+            </a> <br>
+            <p class="centered_para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            </p>
         </div>
 
-        <!-- body starts -->
-        <div class="fourteen wide column" id="column_1">
-            <br>
-            <br>
 
-            <!-- What we sell First part-->
-            <h1 class="ui centered header" id="header-size40">What We Sell</h1> <br> <br>
-            <div class="bootstrap_three">
-                <div class="col-xs-3 col-sm-3 col-md-3">
-                    <a href="#new">
-                        <img class="polaroid" src="images/cheese-varieties.jpg" alt="About us" style="width:300px;height:200px">
-                        <h4 class="ui centered header">Dry Fruits</h4>
-                    </a> <br>
-                    <p class="centered_para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                    </p>
-                </div>
+        <div class="col-xs-3 col-sm-3 col-md-3">
+            <a href="#new">
+                <img class="polaroid" src="assets/images/whipping-cream.jpg" alt="About us" style="width:300px;height:200px">
+                <h4 class="ui centered header">Dry Fruits</h4>
+            </a> <br>
+            <p class="centered_para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            </p>
+        </div>
 
+        <div class="col-xs-3 col-sm-3 col-md-3">
+            <a href="#new">
+                <img class="polaroid" src="assets/images/cheese_cut.jpg" alt="About us" style="width:300px;height:200px">
+                <h4 class="ui centered header">Dry Fruits</h4>
+            </a> <br>
+            <p class="centered_para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            </p>
+        </div>
+    </div>
 
-                <div class="col-xs-3 col-sm-3 col-md-3">
-                    <a href="#new">
-                        <img class="polaroid" src="images/coulommiers_lait.jpg" alt="About us" style="width:300px;height:200px">
-                        <h4 class="ui centered header">Dry Fruits</h4>
-                    </a> <br>
-                    <p class="centered_para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                    </p>
-                </div>
-
-
-                <div class="col-xs-3 col-sm-3 col-md-3">
-                    <a href="#new">
-                        <img class="polaroid" src="images/whipping-cream.jpg" alt="About us" style="width:300px;height:200px">
-                        <h4 class="ui centered header">Dry Fruits</h4>
-                    </a> <br>
-                    <p class="centered_para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                    </p>
-                </div>
-
-                <div class="col-xs-3 col-sm-3 col-md-3">
-                    <a href="#new">
-                        <img class="polaroid" src="images/cheese_cut.jpg" alt="About us" style="width:300px;height:200px">
-                        <h4 class="ui centered header">Dry Fruits</h4>
-                    </a> <br>
-                    <p class="centered_para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                    </p>
-                </div>
+    <div class="ui hidden divider"> <br> </div> <br> <br>
+    <!-- Our shop Image banner -->
+    <div class='ourshop'>
+        <div class="parallax">
+            <div class="text-block">
+                Our Shop
             </div>
+        </div>
+    </div>
 
-            <div class="ui hidden divider"> <br> </div> <br> <br>
-            <!-- Our shop Image banner -->
-            <div class='ourshop'>
-                <div class="parallax">
-                    <div class="text-block">
-                        Our Shop
-                    </div>
-                </div>
-            </div>
+    <div class="ui hidden divider"> <br> </div> <br> <br>
 
-            <div class="ui hidden divider"> <br> </div> <br> <br>
-
-            <!-- What we sell  Continued-->
-            <div class="bootstrap_three">
-                <div class="col-xs-3 col-sm-3 col-md-3">
-                    <a href="#new">
-                        <img class="polaroid" src="images/almondBrazil.jpg" alt="About us" style="width:300px;height:200px">
-                        <h4 class="ui centered header">Dry Fruits</h4>
-                    </a> <br>
-                    <p class="centered_para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                    </p>
-                </div>
+    <!-- What we sell  Continued-->
+    <div class="bootstrap_three">
+        <div class="col-xs-3 col-sm-3 col-md-3">
+            <a href="#new">
+                <img class="polaroid" src="assets/images/almondBrazil.jpg" alt="About us" style="width:300px;height:200px">
+                <h4 class="ui centered header">Dry Fruits</h4>
+            </a> <br>
+            <p class="centered_para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            </p>
+        </div>
 
 
-                <div class="col-xs-3 col-sm-3 col-md-3">
-                    <a href="#new">
-                        <img class="polaroid" src="images/chuckBeef.jpg" alt="About us" style="width:300px;height:200px">
-                        <h4 class="ui centered header">Dry Fruits</h4>
-                    </a> <br>
-                    <p class="centered_para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                    </p>
-                </div>
+        <div class="col-xs-3 col-sm-3 col-md-3">
+            <a href="#new">
+                <img class="polaroid" src="assets/images/chuckBeef.jpg" alt="About us" style="width:300px;height:200px">
+                <h4 class="ui centered header">Dry Fruits</h4>
+            </a> <br>
+            <p class="centered_para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            </p>
+        </div>
 
 
-                <div class="col-xs-3 col-sm-3 col-md-3">
-                    <a href="#new">
-                        <img class="polaroid" src="images/whipping-cream.jpg" alt="About us" style="width:300px;height:200px">
-                        <h4 class="ui centered header">Dry Fruits</h4>
-                    </a> <br>
-                    <p class="centered_para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                    </p>
-                </div>
+        <div class="col-xs-3 col-sm-3 col-md-3">
+            <a href="#new">
+                <img class="polaroid" src="assets/images/whipping-cream.jpg" alt="About us" style="width:300px;height:200px">
+                <h4 class="ui centered header">Dry Fruits</h4>
+            </a> <br>
+            <p class="centered_para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            </p>
+        </div>
 
-                <div class="col-xs-3 col-sm-3 col-md-3">
-                    <a href="#new">
-                        <img class="polaroid" src="images/cheese_cut.jpg" alt="About us" style="width:300px;height:200px">
-                        <h4 class="ui centered header">Dry Fruits</h4>
-                    </a> <br>
-                    <p class="centered_para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                    </p>
-                </div>
+        <div class="col-xs-3 col-sm-3 col-md-3">
+            <a href="#new">
+                <img class="polaroid" src="assets/images/cheese_cut.jpg" alt="About us" style="width:300px;height:200px">
+                <h4 class="ui centered header">Dry Fruits</h4>
+            </a> <br>
+            <p class="centered_para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            </p>
+        </div>
 
-                <div class="ui hidden divider"> <br> </div>
+        <div class="ui hidden divider"> <br> </div>
 
-                <div class="col-xs-3 col-sm-3 col-md-3">
-                    <a href="#new">
-                        <img class="polaroid" src="images/cheese-varieties.jpg" alt="About us" style="width:300px;height:200px">
-                        <h4 class="ui centered header">Dry Fruits</h4>
-                    </a> <br>
-                    <p class="centered_para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                    </p>
-                </div>
-
-
-                <div class="col-xs-3 col-sm-3 col-md-3">
-                    <a href="#new">
-                        <img class="polaroid" src="images/coulommiers_lait.jpg" alt="About us" style="width:300px;height:200px">
-                        <h4 class="ui centered header">Dry Fruits</h4>
-                    </a> <br>
-                    <p class="centered_para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                    </p>
-                </div>
-
-                <div class="col-xs-3 col-sm-3 col-md-3">
-                    <a href="#new">
-                        <img class="polaroid" src="images/coulommiers_lait.jpg" alt="About us" style="width:300px;height:200px">
-                        <h4 class="ui centered header">Dry Fruits</h4>
-                    </a> <br>
-                    <p class="centered_para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                    </p>
-                </div>
-
-                <div class="col-xs-3 col-sm-3 col-md-3">
-                    <div class="ui right floated segment">
-                        <a href="#new"> <b class="ui teal header"> More Categories>> </b></a> 
-                    </div>
-                </div> 
-
-            </div>
-
-            <div class="ui hidden divider"> <br> </div>
-
-            <!-- Our Customers Favourites -->
-            <div class="ui segment"> <br> <br>
-                <h1 class="ui centered header" id="header-size40">Our Customers Favourites</h1> <br> <br>
-                <div id="slideCustomers" class="carousel slide" data-ride="carousel">
-                    <div class="container carousel-inner no-padding">
-                        <div class="carousel-item active">
-
-                            <div class="col-xs-3 col-sm-3 col-md-3">
-                                <a href="new">
-                                    <img class="ui medium image centered radius_15" src="images/almondBrazil.jpg" alt="About us"
-                                        style="width:200px;height:200px">
-                                    <h4 class="ui centered header">Cheese 1</h4>
-                                </a>
-                            </div>
+        <div class="col-xs-3 col-sm-3 col-md-3">
+            <a href="#new">
+                <img class="polaroid" src="assets/images/cheese-varieties.jpg" alt="About us" style="width:300px;height:200px">
+                <h4 class="ui centered header">Dry Fruits</h4>
+            </a> <br>
+            <p class="centered_para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            </p>
+        </div>
 
 
-                            <div class="col-xs-3 col-sm-3 col-md-3">
-                                <a href="new">
-                                    <img class="ui medium image centered radius_15" src="images/chuckBeef.jpg" alt="About us"
-                                        style="width:200px;height:200px">
-                                    <h4 class="ui centered header"> Dry Fruits 1</h4>
-                                </a>
-                            </div>
+        <div class="col-xs-3 col-sm-3 col-md-3">
+            <a href="#new">
+                <img class="polaroid" src="assets/images/coulommiers_lait.jpg" alt="About us" style="width:300px;height:200px">
+                <h4 class="ui centered header">Dry Fruits</h4>
+            </a> <br>
+            <p class="centered_para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            </p>
+        </div>
 
+        <div class="col-xs-3 col-sm-3 col-md-3">
+            <a href="#new">
+                <img class="polaroid" src="assets/images/coulommiers_lait.jpg" alt="About us" style="width:300px;height:200px">
+                <h4 class="ui centered header">Dry Fruits</h4>
+            </a> <br>
+            <p class="centered_para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            </p>
+        </div>
 
-                            <div class="col-xs-3 col-sm-3 col-md-3">
-                                <a href="new">
-                                    <img class="ui medium image centered radius_15" src="images/coulommiers_lait.jpg"
-                                        alt="About us" style="width:200px;height:200px">
-                                    <h4 class="ui centered header"> Meat 1</h4>
-                                </a>
-                            </div>
-
-
-                            <div class="col-xs-3 col-sm-3 col-md-3">
-                                <a href="new">
-                                    <img class="ui medium image centered radius_15" src="images/almondBrazil.jpg" alt="About us"
-                                        style="width:200px;height:200px">
-                                    <h4 class="ui centered header">Meat 1</h4>
-                                </a>
-                            </div>
-                        </div>
-
-                        <div class="carousel-item">
-                            <div class="col-xs-3 col-sm-3 col-md-3">
-                                <a href="new">
-                                    <img class="ui medium image centered radius_15" src="images/almondBrazil.jpg" alt="About us"
-                                        style="width:200px;height:200px">
-                                    <h4 class="ui centered header">Cheese 1</h4>
-                                </a>
-                            </div>
-
-
-                            <div class="col-xs-3 col-sm-3 col-md-3">
-                                <a href="new">
-                                    <img class="ui medium image centered radius_15" src="images/chuckBeef.jpg" alt="About us"
-                                        style="width:200px;height:200px">
-                                    <h4 class="ui centered header"> Dry Fruits 1</h4>
-                                </a>
-                            </div>
-
-
-                            <div class="col-xs-3 col-sm-3 col-md-3">
-                                <a href="new">
-                                    <img class="ui medium image centered radius_15" src="images/coulommiers_lait.jpg"
-                                        style="width:200px;height:200px">
-                                    <h4 class="ui centered header"> Meat 1</h4>
-                                </a>
-                            </div>
-
-
-                            <div class="col-xs-3 col-sm-3 col-md-3">
-                                <a href="new">
-                                    <img class="ui medium image centered radius_15" src="images/almondBrazil.jpg" alt="About us"
-                                        style="width:200px;height:200px">
-                                    <h4 class="ui centered header">Meat 1</h4>
-                                </a>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <!-- Left and right controls -->
-                    <a class="carousel-control-prev no-padding-2" href="#slideCustomers" data-slide="prev">
-                        <span class="carousel-control-prev-icon"></span>
-                    </a>
-                    <a class="carousel-control-next" href="#slideCustomers" data-slide="next">
-                        <span class="carousel-control-next-icon"></span>
-                    </a>
-                </div>
+        <div class="col-xs-3 col-sm-3 col-md-3">
+            <div class="ui right floated segment">
+                <a href="#new"> <b class="ui teal header"> More Categories>> </b></a>
             </div>
         </div>
 
-        <!-- How It Works -->
-            <div class="ui hidden divider"> <br> </div> <br>
-            <h4 class="ui centered header" id="header-size40">How It Works</h4> <br> <br>
-            <br> <br>
-            <div class="container-fluid">
-                <div class="container-fluid">
-                    <div class="row" id="howitworks_align">
-                        <div class="col-sm-4">
-                           <i class="fa fa-comments-o fa-5x  fa-cog"  aria-hidden="true"></i>
-                                <h4 class="ui centered large header" id="header-size30">Chat With An Expert</h4>
-                            <br>
-                            <p class="centered_para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                eiusmod
-                            </p>
-                        </div>
+    </div>
 
-                        <div class="col-sm-4">
-                       <i class="fa fa-balance-scale fa-5x  fa-cog" aria-hidden="true"></i>
-                                <h4 class="ui centered header">Free Delivery</h4>
-                            <br>
-                            <p class="centered_para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                eiusmod
-                            </p>
+    <div class="ui hidden divider"> <br> </div>
 
-                        </div>
-                        <div class="col-sm-4">
-                     <i class="fa fa-circle-thin  fa-5x  fa-cog" aria-hidden="true"></i>
+    <!-- Our Customers Favourites -->
+    <div class="ui segment"> <br> <br>
+        <h1 class="ui centered header" id="header-size40">Our Customers Favourites</h1> <br> <br>
+        <div id="slideCustomers" class="carousel slide" data-ride="carousel">
+            <div class="container carousel-inner no-padding">
+                <div class="carousel-item active">
 
-                                <h4 class="ui centered header">Fresh Products</h4>
-                         <br>
-                            <p class="centered_para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                eiusmod
-                            </p>
-                        </div>
+                    <div class="col-xs-3 col-sm-3 col-md-3">
+                        <a href="new">
+                            <img class="ui medium image centered radius_15" src="assets/images/almondBrazil.jpg" alt="About us"
+                                style="width:200px;height:200px">
+                            <h4 class="ui centered header">Cheese 1</h4>
+                        </a>
+                    </div>
+                    <div class="col-xs-3 col-sm-3 col-md-3">
+                        <a href="new">
+                            <img class="ui medium image centered radius_15" src="assets/images/chuckBeef.jpg" alt="About us"
+                                style="width:200px;height:200px">
+                            <h4 class="ui centered header"> Dry Fruits 1</h4>
+                        </a>
+                    </div>
 
+                    <div class="col-xs-3 col-sm-3 col-md-3">
+                        <a href="new">
+                            <img class="ui medium image centered radius_15" src="assets/images/coulommiers_lait.jpg"
+                                alt="About us" style="width:200px;height:200px">
+                            <h4 class="ui centered header"> Meat 1</h4>
+                        </a>
+                    </div>
+
+                    <div class="col-xs-3 col-sm-3 col-md-3">
+                        <a href="new">
+                            <img class="ui medium image centered radius_15" src="assets/images/almondBrazil.jpg" alt="About us"
+                                style="width:200px;height:200px">
+                            <h4 class="ui centered header">Meat 1</h4>
+                        </a>
                     </div>
                 </div>
+
+                <div class="carousel-item">
+                    <div class="col-xs-3 col-sm-3 col-md-3">
+                        <a href="new">
+                            <img class="ui medium image centered radius_15" src="assets/images/almondBrazil.jpg" alt="About us"
+                                style="width:200px;height:200px">
+                            <h4 class="ui centered header">Cheese 1</h4>
+                        </a>
+                    </div>
+
+                    <div class="col-xs-3 col-sm-3 col-md-3">
+                        <a href="new">
+                            <img class="ui medium image centered radius_15" src="assets/images/chuckBeef.jpg" alt="About us"
+                                style="width:200px;height:200px">
+                            <h4 class="ui centered header"> Dry Fruits 1</h4>
+                        </a>
+                    </div>
+
+                    <div class="col-xs-3 col-sm-3 col-md-3">
+                        <a href="new">
+                            <img class="ui medium image centered radius_15" src="assets/images/coulommiers_lait.jpg"
+                                style="width:200px;height:200px">
+                            <h4 class="ui centered header"> Meat 1</h4>
+                        </a>
+                    </div>
+
+                    <div class="col-xs-3 col-sm-3 col-md-3">
+                        <a href="new">
+                            <img class="ui medium image centered radius_15" src="assets/images/almondBrazil.jpg" alt="About us"
+                                style="width:200px;height:200px">
+                            <h4 class="ui centered header">Meat 1</h4>
+                        </a>
+                    </div>
+
+                </div>
             </div>
-     
-            <div class="ui hidden divider"> <br> </div>
+
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev no-padding-2" href="#slideCustomers" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#slideCustomers" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+    </div>
+</div>
+
+<!-- How     It Works -->
+<div class="ui hidden divider"> <br> </div> <br>
+<h4 class="ui centered header" id="header-size40">How It Works</h4> <br> <br>
+<br> <br>
+<div class="container-fluid">
+    <div class="container-fluid">
+        <div class="row" id="howitworks_align">
+            <div class="col-sm-4">
+                <i class="fa fa-comments-o fa-5x  fa-cog" aria-hidden="true"></i>
+                <h4 class="ui centered large header" id="header-size30">Chat With An Expert</h4>
+                <br>
+                <p class="centered_para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod
+                </p>
+            </div>
+
+            <div class="col-sm-4">
+                <i class="fa fa-balance-scale fa-5x  fa-cog" aria-hidden="true"></i>
+                <h4 class="ui centered header">Free Delivery</h4>
+                <br>
+                <p class="centered_para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod
+                </p>
+
+            </div>
+            <div class="col-sm-4">
+                <i class="fa fa-circle-thin  fa-5x  fa-cog" aria-hidden="true"></i>
+
+                <h4 class="ui centered header">Fresh Products</h4>
+                <br>
+                <p class="centered_para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod
+                </p>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="ui hidden divider"> <br> </div>
 
 
-        <!-- Client List -->
-        <div class="ui segment"> <br> <br>
-            <h4 class="ui centered header" id="header-size40">Our Clients</h4> <br> <br>
+<!-- Client List -->
+<div class="ui segment"> <br> <br>
+    <h4 class="ui centered header" id="header-size40">Our Clients</h4> <br> <br>
 
-            <div id="slideBoth" class="carousel slide" data-ride="carousel">
-                <!-- Indicators -->
-                <!-- <ul class="carousel-indicators">
+    <div id="slideBoth" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <!-- <ul class="carousel-indicators">
 			<li data-target="#demo" data-slide-to="0" class="active"></li>
 			<li data-target="#demo" data-slide-to="1"></li>
 			<li data-target="#demo" data-slide-to="2"></li>
 		</ul> -->
 
-                <!-- The slideshow -->
-                <div class="container carousel-inner no-padding">
-                    <div class="carousel-item active">
+        <!-- The slideshow -->
+        <div class="container carousel-inner no-padding">
+            <div class="carousel-item active">
 
-                        <div class="col-xs-3 col-sm-3 col-md-3">
-                 
-                                <a href="new">
-                                    <img class="ui medium circular image centered" src="images/logo.jpg" alt="About us"
-                                        style="width:150px;height:150px">
-                                    <h4 class="ui centered header">Client 1 </h4>
-                                </a>
-                      
-                        </div>
+                <div class="col-xs-3 col-sm-3 col-md-3">
 
-                        <div class="col-xs-3 col-sm-3 col-md-3">
-                                <a href="new">
-                                    <img class="ui medium circular image centered" src="images/logo.jpg" alt="About us"
-                                        style="width:150px;height:150px">
-                                    <h4 class="ui centered header">Client 1 </h4>
-                                </a>
-                        </div>
+                    <a href="new">
+                        <img class="ui medium circular image centered" src="assets/images/logo.jpg" alt="About us"
+                            style="width:150px;height:150px">
+                        <h4 class="ui centered header">Client 1 </h4>
+                    </a>
 
-                        <div class="col-xs-3 col-sm-3 col-md-3">
-                                <a href="new">
-                                    <img class="ui medium circular image centered" src="images/logo.jpg" alt="About us"
-                                        style="width:150px;height:150px">
-                                    <h4 class="ui centered header">Client 1 </h4>
-                                </a>
-                        </div>
+                </div>
 
-                        <div class="col-xs-3 col-sm-3 col-md-3">
-                                <a href="new">
-                                    <img class="ui medium circular image centered" src="images/logo.jpg" alt="About us"
-                                        style="width:150px;height:150px">
-                                    <h4 class="ui centered header">Client 1 </h4>
-                                </a>
-                            </div>
-                    </div>
+                <div class="col-xs-3 col-sm-3 col-md-3">
+                    <a href="new">
+                        <img class="ui medium circular image centered" src="assets/images/logo.jpg" alt="About us"
+                            style="width:150px;height:150px">
+                        <h4 class="ui centered header">Client 1 </h4>
+                    </a>
+                </div>
 
+                <div class="col-xs-3 col-sm-3 col-md-3">
+                    <a href="new">
+                        <img class="ui medium circular image centered" src="assets/images/logo.jpg" alt="About us"
+                            style="width:150px;height:150px">
+                        <h4 class="ui centered header">Client 1 </h4>
+                    </a>
+                </div>
 
-                    <div class="carousel-item">
-                       <div class="col-xs-3 col-sm-3 col-md-3">
-                 
-                                <a href="new">
-                                    <img class="ui medium circular image centered" src="images/logo.jpg" alt="About us"
-                                        style="width:150px;height:150px">
-                                    <h4 class="ui centered header">Client 1 </h4>
-                                </a>
-                      
-                        </div>
-
-                        <div class="col-xs-3 col-sm-3 col-md-3">
-                                <a href="new">
-                                    <img class="ui medium circular image centered" src="images/logo.jpg" alt="About us"
-                                        style="width:150px;height:150px">
-                                    <h4 class="ui centered header">Client 1 </h4>
-                                </a>
-                        </div>
-
-                        <div class="col-xs-3 col-sm-3 col-md-3">
-                                <a href="new">
-                                    <img class="ui medium circular image centered" src="images/logo.jpg" alt="About us"
-                                        style="width:150px;height:150px">
-                                    <h4 class="ui centered header">Client 1 </h4>
-                                </a>
-                        </div>
-
-                        <div class="col-xs-3 col-sm-3 col-md-3">
-                                <a href="new">
-                                    <img class="ui medium circular image centered" src="images/logo.jpg" alt="About us"
-                                        style="width:150px;height:150px">
-                                    <h4 class="ui centered header">Client 1 </h4>
-                                </a>
-                            </div>
-                    </div>
-
-
-                    <div class="carousel-item">                       <div class="col-xs-3 col-sm-3 col-md-3">
-                 
-                                <a href="new">
-                                    <img class="ui medium circular image centered" src="images/logo.jpg" alt="About us"
-                                        style="width:150px;height:150px">
-                                    <h4 class="ui centered header">Client 1 </h4>
-                                </a>
-                      
-                        </div>
-
-                        <div class="col-xs-3 col-sm-3 col-md-3">
-                                <a href="new">
-                                    <img class="ui medium circular image centered" src="images/logo.jpg" alt="About us"
-                                        style="width:150px;height:150px">
-                                    <h4 class="ui centered header">Client 1 </h4>
-                                </a>
-                        </div>
-
-                        <div class="col-xs-3 col-sm-3 col-md-3">
-                                <a href="new">
-                                    <img class="ui medium circular image centered" src="images/logo.jpg" alt="About us"
-                                        style="width:150px;height:150px">
-                                    <h4 class="ui centered header">Client 1 </h4>
-                                </a>
-                        </div>
-
-                        <div class="col-xs-3 col-sm-3 col-md-3">
-                                <a href="new">
-                                    <img class="ui medium circular image centered" src="images/logo.jpg" alt="About us"
-                                        style="width:150px;height:150px">
-                                    <h4 class="ui centered header">Client 1 </h4>
-                                </a>
-                            </div>
-                    </div>
-                </div> <br> <br>
-
-                <!-- Left and right controls -->
-                <a class="carousel-control-prev" href="#slideBoth" data-slide="prev">
-                    <span class="carousel-control-prev-icon"></span>
-                </a>
-                <a class="carousel-control-next" href="#slideBoth" data-slide="next">
-                    <span class="carousel-control-next-icon"></span>
-                </a>
+                <div class="col-xs-3 col-sm-3 col-md-3">
+                    <a href="new">
+                        <img class="ui medium circular image centered" src="assets/images/logo.jpg" alt="About us"
+                            style="width:150px;height:150px">
+                        <h4 class="ui centered header">Client 1 </h4>
+                    </a>
+                </div>
             </div>
-        </div>
+
+
+            <div class="carousel-item">
+                <div class="col-xs-3 col-sm-3 col-md-3">
+
+                    <a href="new">
+                        <img class="ui medium circular image centered" src="assets/images/logo.jpg" alt="About us"
+                            style="width:150px;height:150px">
+                        <h4 class="ui centered header">Client 1 </h4>
+                    </a>
+
+                </div>
+
+                <div class="col-xs-3 col-sm-3 col-md-3">
+                    <a href="new">
+                        <img class="ui medium circular image centered" src="assets/images/logo.jpg" alt="About us"
+                            style="width:150px;height:150px">
+                        <h4 class="ui centered header">Client 1 </h4>
+                    </a>
+                </div>
+
+                <div class="col-xs-3 col-sm-3 col-md-3">
+                    <a href="new">
+                        <img class="ui medium circular image centered" src="assets/images/logo.jpg" alt="About us"
+                            style="width:150px;height:150px">
+                        <h4 class="ui centered header">Client 1 </h4>
+                    </a>
+                </div>
+
+                <div class="col-xs-3 col-sm-3 col-md-3">
+                    <a href="new">
+                        <img class="ui medium circular image centered" src="assets/images/logo.jpg" alt="About us"
+                            style="width:150px;height:150px">
+                        <h4 class="ui centered header">Client 1 </h4>
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="carousel-item">
+                <div class="col-xs-3 col-sm-3 col-md-3">
+
+                    <a href="new">
+                        <img class="ui medium circular image centered" src="assets/images/logo.jpg" alt="About us"
+                            style="width:150px;height:150px">
+                        <h4 class="ui centered header">Client 1 </h4>
+                    </a>
+
+                </div>
+
+                <div class="col-xs-3 col-sm-3 col-md-3">
+                    <a href="new">
+                        <img class="ui medium circular image centered" src="assets/images/logo.jpg" alt="About us"
+                            style="width:150px;height:150px">
+                        <h4 class="ui centered header">Client 1 </h4>
+                    </a>
+                </div>
+
+                <div class="col-xs-3 col-sm-3 col-md-3">
+                    <a href="new">
+                        <img class="ui medium circular image centered" src="assets/images/logo.jpg" alt="About us"
+                            style="width:150px;height:150px">
+                        <h4 class="ui centered header">Client 1 </h4>
+                    </a>
+                </div>
+
+                <div class="col-xs-3 col-sm-3 col-md-3">
+                    <a href="new">
+                        <img class="ui medium circular image centered" src="assets/images/logo.jpg" alt="About us"
+                            style="width:150px;height:150px">
+                        <h4 class="ui centered header">Client 1 </h4>
+                    </a>
+                </div>
+            </div>
+        </div> <br> <br>
+
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#slideBoth" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#slideBoth" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
     </div>
+</div>
+
 
 
     <!-- about us -->
@@ -424,7 +417,7 @@
         <div class="ui grid">
             <!-- first column -->
             <div class="four wide left floated column">
-                <img src="images/aboutus.jpeg" alt="About us" style="width:380px;height:594px">
+                <img src="assets/images/aboutus.jpeg" alt="About us" style="width:380px;height:594px">
             </div>
             <!-- Second column -->
             <div class="five wide column">
@@ -525,29 +518,15 @@
     </div>
 
 
-    </div>
-    </div>
-    <div>
-        <?php include 'Footer.php';?>
-    </div>
-    </div>
+
+
+<div>
+    <?php include 'Footer.php';?>
+</div>
+
 
 
 
 <style>
-.parallax {
-    /* The image used */
-    background-image: url("images/cheeseTransform.jpg");
 
-    /* Set a specific height */
-    min-height: 500px;
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
 </style>
-
