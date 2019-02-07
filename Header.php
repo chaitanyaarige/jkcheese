@@ -13,11 +13,14 @@
     <link rel="stylesheet" href="assets/css/homepage.css">
     <link rel="stylesheet" href="assets/css/Headercss.css">
     <link rel="stylesheet" href="assets/css/carousel.css">
+     <link rel="stylesheet" href="assets/css/Productpage.css">
+
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="assets/css/bootstrap-4/bootstrap.min.css">
-    <script src="assets/js/bootstrap/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="assets/js/bootstrap/bootstrap.min.js"></script>
+ 
 
     <!-- Semantic ui -->
     <link rel="stylesheet" href="assets/css/Semantic-UI-2.4/semantic.min.css">
@@ -75,11 +78,12 @@
         $(".logonav").width(s).height(s);
     });
 
-    // Semantic Ui dropdowns 
+</script>
 
+<script> 
+    // Semantic Ui dropdowns 
     $('.ui.dropdown').dropdown();
     $('#select').dropdown();
-    $('#hybrid select').dropdown({
-        on: 'hover'
-    });
+    $('#hybrid select').dropdown({on: 'hover'});
+    $('#multi-select').dropdown();
 </script>

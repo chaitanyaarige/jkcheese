@@ -524,9 +524,3 @@
     <?php include 'Footer.php';?>
 </div>
 
-
-
-
-<style>
-
-</style>
