@@ -463,7 +463,7 @@
 
     <!-- contact us -->
     <h2 class="ui centered huge header">Contact Us</h2>
-    <div class="ui segment" id="column_address">
+    <div class="ui hidden divider"> <br> </div> 
         <div class="ui grid">
             <!-- first column -->
             <div class="two wide column">
@@ -515,7 +515,7 @@
                 </div>
             </div>
         </div>
-    </div>
+  
 
 
 

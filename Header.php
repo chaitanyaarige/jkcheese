@@ -39,20 +39,20 @@
     <div class="ui center aligned grid container">
         <div class="ui secondary menu">
             <a href="Home.php" class="item"  id="gold_color"> HOME</a>
-            <a href="productpage.php" class="item"  id="gold_color">OUR CHEESE</a>
-            <a href="productpage.php" class="item"  id="gold_color">OUR MEAT</a>
-            <img class="logonav" src="assets/images/logo.jpg" alt="logo">
-            <div class="ui simple dropdown item"  id="gold_color">
+            <a href="productpage.php" class="item"  id="gold_color">OUR PRODUCTS</a>
+            <a href="aboutus.php" class="item"  id="gold_color">ABOUT US</a>
+           <a href="Home.php"> <img class="logonav" src="assets/images/logo.jpg" alt="logo"></a>
+            <div class="ui dropdown item"  id="gold_color">
                 SHOP <br> by category
                 <i class="dropdown icon"></i>
                 <div class="menu">
-                    <a href="productpage.php" class="item">Butter</a>
-                    <a href="productpage.php" class="item">Dry Fruits</a>
-                    <a href="productpage.php" class="item">Chocolates</a>
-                    <a href="productpage.php" class="item">Whipping Cream</a>
+                    <a href="ProductDescription.php" class="item">Butter</a>
+                    <a href="ProductDescription.php" class="item">Dry Fruits</a>
+                    <a href="ProductDescription.php" class="item">Chocolates</a>
+                    <a href="ProductDescription.php" class="item">Whipping Cream</a>
                 </div>
             </div>
-            <a href="aboutus.php" class="item"  id="gold_color"> ABOUT US</a>
+            <a href="contactus.php" class="item"  id="gold_color"> CONTACT US</a>
             <a href="myaccount.php" class="item"  id="gold_color"> MY ACCOUNT</a>
 		 <a class="icon1" onclick="mobileView()">
     <i class="bars icon"></i> </a>
