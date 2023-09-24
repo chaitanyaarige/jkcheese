@@ -1,0 +1,136 @@
+.topnav {
+	position: fixed;
+	width: 100%;
+	height: 80px;
+	/* line-height: 120px; */
+	z-index: 99;
+	background: #ffffff;
+}
+
+
+
+.topnav.sticky {
+	font-size: 24px;
+	line-height: 50px;
+	height: 65px;
+	background: #ffffff;
+	text-align: left;
+	width: 100%;
+	top: 0;
+}	
+
+
+
+.icon1 {
+	display: none;
+}
+
+.logonav {
+	width: 82px;
+	height: 82px;
+}
+
+#finecheese_color {
+	background-color: #86B7DF;
+}
+
+.ridge {
+	border-style: ridge;
+	border-color: white;
+	border-width: 1px;
+}
+
+
+#hover_menu_align_header {
+	padding-left: 5%;
+	color: #0d5690;
+	font-size: 14px;
+	/* font-weight: bold; */
+	right: 0;
+	font-family: 'brandon-grotesque',
+		sans-serif;
+	padding-top: 15px;
+}
+
+#hover_menu_align_text {
+	margin-left: 10px;
+	line-height: 1.8;
+	color: black;
+	font-size: 12px;
+	/* font-weight: bold; */
+	/* font-family: 'Josefin Sans',
+		sans-serif; */
+	font-family: 'brandon-grotesque',
+		sans-serif;
+	/* font-weight: 700; */
+}
+
+#nav-icon {
+	font-size: 28px;
+	color: #0d5690;
+	margin: -10px;
+	margin-bottom: 1px;
+}
+
+
+.menu_number {
+	background: #b6ccdd;
+	padding: 8px;
+}
+
+.main.menu {
+	border-radius: 0;
+	border: none;
+	box-shadow: none;
+	transition: padding 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+.secondary.menu {
+	display: none !important;
+}
+
+#offnav20 {
+	background-color: #0b4f93;
+	font-family: 'Cormorant Garamond',
+		serif;
+		color:white;
+	font-style: italic;
+	line-height: 30px;
+}
+
+#gold_color {
+	color: #0d5690;
+	/* color: #DCC84D; */
+	font-size: 14px;
+	/* font-weight: bold; */
+	/* font-family: 'Cormorant Garamond',
+		serif; */
+	font-family: 'brandon-grotesque-bold',
+		sans-serif;
+	/* font-weight: 400; */
+}
+
+@media only screen and (max-width: 700px) {
+	.ui.main.menu {
+		display: none !important;
+	}
+
+	.main.menu .item,
+	.main.menu .menu {
+		display: none;
+	}
+
+	.secondary.menu {
+		display: block !important;
+	}
+}
+
+
+/* mobile */
+@media only screen and (max-width: 600px) {
+	.myBagNav {
+		display: none !important;
+	}
+}

@@ -1,0 +1,623 @@
+@font-face {
+    font-family: gillsanslight;
+    src: url("assets/css/gillsanslight.otf") format("opentype");
+}
+
+@font-face {
+    font-family: gillsans;
+    src: url("assets/css/gillsans.otf") format("opentype");
+}
+
+::placeholder {
+    /* font-size: 1.5em; */
+    font-family: 'Cormorant Garamond',
+        serif;
+    color: black;
+}
+
+
+#column_1 {
+    padding-top: 90px;
+}
+
+#about_para2 .radius_15 {
+    border-radius: 15px;
+}
+
+.extra_spaceafter120 {
+    margin-bottom: 120px;
+}
+
+.extra_spaceafter60 {
+    margin-bottom: 60px;
+}
+
+.extra_spacebefore120 {
+    margin-top: 120px;
+}
+
+.extra_paddingtop120 {
+    padding-top: 70px;
+}
+
+.extra_paddingbottom120 {
+    padding-bottom: 70px;
+}
+
+.explore_comp_moveup {
+    margin-top: -6%;
+    background: #ffffff;
+}
+
+
+#header-size40 {
+    font-size: 24px;
+    /*font-family: 'Josefin Sans',*/
+    /*    sans-serif;*/
+    font-family: 'brandon-grotesque',
+        sans-serif;
+    font-weight: 300;
+    line-height: 68px;
+    color: #333333;
+    /* text-transform: uppercase; */
+
+}
+
+#header-size34 {
+    font-size: 34px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    font-weight: 400;
+}
+
+.centered_para {
+    text-align: center;
+    line-height: 20px;
+    /* font-size: 14px; */
+    /* font-family: 'Cormorant Garamond', serif; */
+    font-family: 'Josefin Sans',
+        sans-serif;
+    color: #666666;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.categories_titles {
+    text-align: center;
+    line-height: 1.5;
+    /* font-size: 14px; */
+    font-family: 'Cormorant Garamond', serif;
+    color: #333333;
+}
+
+/* mobile */
+@media only screen and (max-width: 600px) {
+    .categories_titles {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (min-width: 601px) {
+    .categories_titles {
+        font-size: 26px;
+        font-weight: 500;
+    }
+}
+
+.explore_price {
+    font-size: 15px;
+    font-family: 'Josefin Sans',
+        sans-serif;
+    font-weight: 400;
+    font-weight: bold;
+    color: black;
+}
+
+.explore_to_cart {
+    color: black;
+    background:none;
+    border:none;
+
+    border-bottom: 1px grey solid;
+    font-size: 13px;
+    font-family: 'Josefin Sans',
+        sans-serif;
+        text-align:left;
+}
+
+.mobile_explore_price {
+    font-family: 'Cormorant Garamond',
+        serif;
+    font-size: 20px;
+    text-decoration: underline;
+    padding-left: 22%;
+    text-align: left;
+}
+
+.categories_explore {
+    line-height: 1.4;
+    font-family: 'Cormorant Garamond',
+        serif;
+    font-size: 20px;
+    color: black;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .categories_explore {
+        margin-left: 23%;
+        text-align: left;
+        color: black;
+    }
+}
+
+
+
+
+
+#coro {
+    font-family: 'Josefin Sans',
+        sans-serif;
+    font-size: 20px;
+    line-height: 45px;
+    color: #333333;
+    font-weight: 500;
+}
+
+#howitworks_align {
+    padding-left: 80px;
+}
+
+/* About us css start */
+
+#about_para {
+    color: #0d5690;
+    line-height: 1.8;
+    font-family: 'Cormorant Garamond',
+        serif;
+    font-size: 20px;
+    margin-top: 80px;
+    font-weight: 500;
+
+}
+
+#about_para2 {
+    /* color: #0d5690; */
+    /*background: #f5f8fa;*/
+    line-height: 1.8;
+    font-family: 'Josefin Sans',
+        sans-serif;
+    font-size: 20px;
+    margin-top: 110px;
+    text-align: center;
+}
+
+#about_header {
+    font-size: 24px;
+    font-family: 'brandon-grotesque',
+        sans-serif;
+    margin-top: 50px;
+    margin-left: 45%;
+    font-weight: 300;
+    margin-bottom: -15%;
+}
+
+#about_image {
+    margin-left: 0;
+}
+
+#aboutus-stripes {
+    /* background: #F2DC6D; */
+    /*background: #f5f8fa;*/
+    /* background-image: linear-gradient(#fff4f2 99%, #ffffff 35%),
+        linear-gradient(-32deg, #639b47 75.48%, transparent 75.48%); */
+
+    /* background:
+        linear-gradient(45deg, #fff4f2 65%, #ffffff 35%),
+        linear-gradient(-72deg, #639b47 75.48%, transparent 75.48%); */
+
+    /* linear-gradient(white, #fff4f2); */
+
+}
+
+/* About us css ends */
+
+.ourshop {
+    display: block;
+    width: 100%;
+    max-width: 2000px;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("../images/ourshop.jpg");
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* mobile */
+@media only screen and (max-width: 600px) {
+    .parallax {
+        /* Set a specific height */
+        min-height: 230px;
+    }
+}
+
+/* computer */
+@media only screen and (min-width: 601px) {
+    .parallax {
+        /* Set a specific height */
+        min-height: 500px;
+    }
+}
+
+.crisscross {
+    background:
+        linear-gradient(to top left, transparent 49.8%, rgba(0, 0, 0, 0.1) 50%),
+        linear-gradient(to top right, transparent 49.8%, rgba(0, 0, 0, 0.1) 50%);
+    background-size:
+        50% 100%,
+        50% 100%,
+        cover;
+}
+
+
+/* mobile */
+@media only screen and (max-width: 600px) {
+    .crisscross {
+        height: 230px;
+    }
+}
+
+/* computer */
+@media only screen and (min-width: 601px) {
+    .crisscross {
+        height: 500px;
+    }
+}
+
+/* ourshop text on image  COMPUTER*/
+.ourshop-block {
+    position: absolute;
+    text-align: center;
+    top: 45%;
+    color: #525252;
+    font-size: 60px;
+    padding-left: 40%;
+    font-family: 'Cormorant Garamond',
+        serif;
+}
+
+
+/* mobile optimize */
+@media only screen and (max-width: 600px) {
+    .ourshop-block {
+        font-size: 40px;
+        padding-left: 28%;
+        font-weight: 500;
+    }
+}
+
+#topsellers {
+    font-family: 'Cormorant Garamond',
+        serif;
+    margin-top: -20px;
+    font-size: 15px;
+    /* font-weight: 900; */
+    /* font-style: italic; */
+}
+
+/*.sellContinue {*/
+/*     border: solid white 4px; */
+/*    border: solid black 1px;*/
+/*    background-color: #fff;*/
+/*    padding: 4px;*/
+/*}*/
+
+#sellContinueBg {
+    width: 100%;
+    margin-top: -14px;   
+}
+
+/* mobile */
+@media only screen and (max-width: 600px) {
+    #sellContinueBg {
+        background: #fdece8;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+
+
+/* computer */
+@media only screen and (min-width: 1024px) {
+    #sellContinueBg {
+        background: #ffffff;
+        text-align: center;
+        -webkit-align-content: center;
+        align-content: center;
+
+        /* background:
+            linear-gradient(to bottom right, transparent 49.8%, rgba(255, 0, 0, 0.04) 50%),
+            linear-gradient(to bottom left, transparent 49.8%, rgba(255, 0, 0, 0.04) 50%);
+        background-size:
+            50% 100%,
+            50% 100%,
+            cover; */
+    }
+
+
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-width : 999px) and (max-width : 1024px) {
+    #sellContinueBg {
+        background: #fdece8;
+        padding: 0px 200px 23px;
+    }
+}
+
+
+#unclickall {
+    pointer-events: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+
+.polaroid {
+    width: 301px;
+    height: 201px;
+    box-shadow: 0px 0px 2px 2px grey;
+    border-radius: 8px;
+}
+
+
+.fa-cog {
+    color: white;
+    /* background: #f9dcc4; */
+    background: #0D5690;
+    border-radius: 50%;
+    height: 2.2em;
+    width: 2.2em;
+    padding-top: 28px;
+}
+
+
+
+.parallaxFooter {
+    /* The image used */
+    background-image: url("../images/blurOil.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+@media only screen and (max-width: 600px) {
+    .parallaxFooter {
+        /* Set a specific height */
+        min-height: 500px;
+        /* Create the parallax scrolling effect */
+    }
+}
+
+/* computer */
+@media only screen and (min-width: 601px) {
+    .parallaxFooter {
+        /* Set a specific height */
+        min-height: 550px;
+        /* Create the parallax scrolling effect */
+    }
+}
+
+
+
+@media only screen and (min-width: 601px) {
+    .emailFooterM {
+        display: none ! important;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .emailFooterC {
+        display: none ! important;
+    }
+}
+
+
+/* Hide our clients slide in mobile */
+/* d-none d-md-block */
+@media only screen and (max-width: 600px) {
+    .computer_our_clients {
+        display: none ! important;
+    }
+}
+
+.mobile_our_clients {
+    text-align: center;
+    width: 100%;
+}
+
+@media only screen and (min-width: 601px) {
+    .mobile_our_clients {
+        display: none ! important;
+    }
+}
+
+/* end computer & mobile only clients */
+
+
+
+/* mobile recommendations */
+.mobile_recommendations {
+    text-align: center;
+    width: 100%;
+    background: #fdece8;
+    /* margin-top: -34%; */
+
+}
+
+@media only screen and (min-width: 601px) {
+    .mobile_recommendations {
+        display: none ! important;
+    }
+}
+
+
+.subscribe {
+    display: block;
+    width: 100%;
+    max-width: 2000px;
+}
+
+/* ourshop text on image */
+.subscribe-block {
+    position: absolute;
+    z-index: 1;
+    top: 30%;
+    color: black;
+    font-family: 'Josefin Sans',
+        sans-serif;
+}
+
+@media screen and (min-width: 600px) {
+    .subscribe-block {
+        font-size: 45px;
+        padding-left: 35%;
+    }
+}
+
+/* For mobile */
+@media screen and (max-width: 600px) {
+    .subscribe-block {
+        font-size: 28px;
+        word-wrap: break-word;
+        line-height: 2;
+        padding-left: 20%;
+        top: 18%;
+    }
+}
+
+/* computer */
+@media screen and (min-width: 600px) {
+    .subscribe-blockText {
+        position: absolute;
+        z-index: 1;
+        top: 40%;
+        font-size: 20px;
+        font-weight: 600;
+        text-align: center;
+        padding-left: 30%;
+        padding-right: 28%;
+        line-height: 1.8em;
+        font-family: 'Josefin Sans',
+            sans-serif;
+        color: black;
+        /* grey before */
+    }
+}
+
+/* For mobile */
+@media screen and (max-width: 600px) {
+    .subscribe-blockText {
+        position: absolute;
+        z-index: 1;
+        top: 30%;
+        text-align: justify center;
+        font-family: 'Josefin Sans',
+            sans-serif;
+        color: black;
+        font-size: 20px;
+        font-weight: 600;
+        word-wrap: break-word;
+        line-height: 1.5;
+        padding-left: 15%;
+        padding-right: 10%;
+    }
+}
+
+
+
+#subscribe-button {
+    background-color: #bbb9b9;
+    font-family: 'Cormorant Garamond',
+        serif;
+
+}
+
+
+@media screen and (min-width: 600px) {
+    #subscribe-button {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #subscribe-button {
+        font-size: 20px;
+    }
+}
+
+
+
+#subscribe-icons {
+    background: #bbb9b9;
+    color: white;
+}
+
+@media screen and (min-width: 600px) {
+    #subscribe-icons {
+        height: 1.8em;
+        width: 1.8em;
+        padding-top: 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #subscribe-icons {
+        height: 1em;
+        width: 1em;
+        padding-top: 1px;
+    }
+}
+
+
+.aboutus_titles {
+    font-family: 'Josefin Sans',
+        sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 1.1;
+    margin-top: 0px;
+
+}
+
+#reviews_para {
+    font-family: 'Josefin Sans',
+        sans-serif;
+    color: black;
+    font-size: 15px;
+    line-height: 1.1;
+    text-align: justify;
+}
+
+
+#reviews_para2 {
+    font-family: 'Josefin Sans',
+        sans-serif;
+    color: black;
+    font-size: 15px;
+    line-height: 1.1;
+    text-align: justify;
+    margin-top: -16px;
+}

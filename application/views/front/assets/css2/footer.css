@@ -1,0 +1,44 @@
+/* .fa-cog {
+    color: white;
+    background: #f9dcc4;
+    border-radius: 50%;
+    height: 1.5em;
+    width: 1.5em;
+    padding-top: 13px;
+} */
+
+#footerColor {
+    background-color: white;
+}
+
+#footer-text {
+    color: black;
+}
+
+.fa-footer {
+    color: grey;
+}
+
+#josefin {
+    font-family: 'Josefin Sans',
+        sans-serif;
+<<<<<<< HEAD
+		  font-size: 13px;
+=======
+>>>>>>> e0440231784b6f6c0671a7d8c5662350652f2826
+}
+
+.footer_follow {
+    padding-left: 25px;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Josefin Sans',
+        sans-serif;
+}
+
+.copyright_footer {
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Josefin Sans',
+        sans-serif;
+}

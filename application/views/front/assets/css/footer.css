@@ -1,0 +1,40 @@
+/* .fa-cog {
+    color: white;
+    background: #f9dcc4;
+    border-radius: 50%;
+    height: 1.5em;
+    width: 1.5em;
+    padding-top: 13px;
+} */
+
+#footerColor {
+    background-color: white;
+}
+
+#footer-text {
+    color: black;
+}
+
+.fa-footer {
+    color: grey;
+}
+
+#josefin {
+    font-family: 'Josefin Sans',
+        sans-serif;
+}
+
+.footer_follow {
+    padding-left: 25px;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Josefin Sans',
+        sans-serif;
+}
+
+.copyright_footer {
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Josefin Sans',
+        sans-serif;
+}
